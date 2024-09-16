@@ -1,1 +1,2 @@
 # FaceDetectionTracking
+This project enables a drone to autonomously track a person’s face in real-time using Computer Vision. Here the Drone combines two key movements: forward/backward motion to maintain the correct distance and rotational adjustments to keep the face centred. The drone continually processes the video feed, using cv2 to detect and follow the face, and adjusting its position dynamically based on the face’s size and location in the frame. This approach is useful for applications such as automated filming, surveillance, and interactive drone experiences.
